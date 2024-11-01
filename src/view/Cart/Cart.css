@@ -1,0 +1,38 @@
+.CartPage {
+  padding-bottom: 26.667vw;
+  padding-top: 13.333vw;
+}
+.CartPage .rv-nav-bar {
+  background-color: #e93323;
+}
+.CartPage .rv-nav-bar .rv-icon {
+  color: #fff !important;
+}
+.CartPage .rv-nav-bar__title {
+  color: #fff !important;
+}
+.CartPage .rv-submit-bar {
+  bottom: 13.333vw;
+}
+.CartPage .goods .goodItem {
+  position: relative;
+  border: 0.5px solid #eee;
+}
+.CartPage .goods .goodItem .checkbox {
+  z-index: 10;
+  left: 2.133vw;
+  position: absolute;
+  top: 40%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.CartPage .goods .goodItem .rv-product-card {
+  padding-left: 10.667vw;
+}
+.rv-stepper--round .rv-stepper__plus {
+  background-color: red !important;
+}
+.rv-stepper--round .rv-stepper__minus {
+  border-color: red !important;
+  color: red !important;
+}

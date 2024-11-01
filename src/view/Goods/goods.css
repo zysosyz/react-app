@@ -1,0 +1,35 @@
+.goodscate {
+  background: #f1f1f1;
+  width: 100%;
+  padding-bottom: 50px;
+  height: 100%;
+}
+.goodscate .rv-sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.goodscate .rv-tabs__content {
+  padding-top: 50px;
+}
+.goodscate .somelist {
+  height: auto;
+  background: #f1f1f1;
+}
+.goodscate .somelist .rv-list {
+  height: auto;
+  min-height: 0;
+}
+.rv-tab__text {
+  font-size: 14px !important;
+}
+.rv-tabs__line {
+  transition-duration: 300ms;
+  display: block !important;
+  transform: translateX(34px) translateX(-50%);
+}
+.ka-wrapper,
+.ka-content {
+  height: 100%;
+}

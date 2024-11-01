@@ -1,0 +1,266 @@
+.info {
+    background-color: #f1f1f1;
+    min-height: 100vh;
+    width: 100%;
+
+
+
+    .left,
+    .right {
+        background-color: #1111;
+        border-radius: 50%;
+        height: 8vw;
+        line-height: 8vw;
+        padding-top: 0.533vw;
+        position: fixed;
+        text-align: center;
+        top: 2.667vW;
+        width: 8vw;
+        z-index: 99;
+    }
+
+    .left {
+        left: 7px;
+    }
+
+    .right {
+        right: 7px;
+    }
+
+    .msg-info {
+        background: #fff;
+        border-radius: 1.333vW;
+        margin: 15px auto;
+        padding: 2.667vw;
+        width: 95%;
+
+        .price {
+            color: red;
+            font-size: 4.267vW;
+            font-weight: bolder;
+        }
+
+        .price::before {
+            content: '￥';
+        }
+
+        .name {
+            font-size: 4.533vW;
+            font-weight: bolder;
+            line-height: 8vw;
+            margin: 2.667vW 0;
+        }
+
+        .good-info {
+            color: #b4b4b4;
+            display: flex;
+            font-size: 3.733vW;
+            justify-content: space-between;
+
+            .otPrice::before {
+                content: '￥';
+            }
+        }
+
+    }
+
+    .change-info {
+        background: #fff;
+        border-radius: 1.333vW;
+        color: #b4b4b4;
+        font-size: 4VW;
+        margin: 2.667vw auto;
+        padding: 2.667vw;
+        width: 95%;
+
+        .attrNmae {
+            color: #444;
+        }
+
+        .right-chan {
+            float: right;
+            margin-top: 0.8vw;
+        }
+    }
+
+    .coment {
+        background: #fff;
+        border-radius: 1.333vW;
+        margin: 0 auto;
+        padding: 2.667vw;
+        width: 95%;
+
+        .title {
+            color: #b4b4b4;
+            font-size: 3.733vw;
+        }
+
+        .coment-mine {
+            display: flex;
+            height: 26.667vw;
+            width: 100%;
+        }
+    }
+
+    .rec {
+        background: #fff;
+        border-radius: 1.333vw;
+        color: #b4b4b4;
+        font-size: 4vw;
+        margin: 2.667vw auto 0;
+        padding: 2.667vw;
+        text-align: center;
+        width: 95%;
+
+        .rec-good {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+
+            .rec-item {
+                padding: 2.667vw;
+                width: 33.3%;
+
+                img {
+                    width: 100%;
+                }
+
+                .storeName {
+                    color: #444;
+                    font-size: 3.733vw;
+                    margin: 1.867vw 0;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                    width: 100%;
+                }
+
+                .price {
+                    color: red;
+                    font-size: 4.533vw;
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+
+    .details {
+        .title {
+            background-color: #f1f1f1;
+            color: #b4b4b4;
+            font-size: 4vw;
+            padding: 4vw 0;
+            text-align: center;
+            width: 100%;
+        }
+
+        img {
+            display: block;
+            width: 100%;
+        }
+    }
+
+
+    .anm-img {
+        .rv-swiper {
+            width: 100%;
+        }
+    }
+
+    .rv-sticky {
+        display: none;
+    }
+}
+
+.rv-stepper--round .rv-stepper__plus {
+    background-color: red !important;
+}
+
+.rv-stepper--round .rv-stepper__minus {
+    border-color: red !important;
+    color: red !important;
+}
+
+.pop-content {
+    padding-bottom: 13.333vw;
+
+    .pop-header {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10.667vw;
+        width: 100%;
+        padding: 0 20px;
+
+        .left {
+            width: 25%;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .right {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 72%;
+
+            .rit-name {
+                font-size: 4vw;
+                height: 10.667vw;
+                overflow: hidden;
+                padding-right: 5.333vw;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                width: 100%;
+            }
+
+            .rit-price {
+                color: #ff7600;
+                font-size: 5.067vw;
+                font-weight: 700;
+            }
+
+            .rit-stock {
+                color: #919191;
+                font-size: 3.467vw;
+            }
+        }
+    }
+
+    .pop-info {
+        padding: 2.667vw 5.333vw;
+
+        .popItem {
+            .pop-name {
+                color: #b4b4b4;
+                font-size: 3.733vw;
+            }
+
+            .pop-list {
+                display: flex;
+                flex-wrap: wrap;
+                margin-top: 2.667vw;
+                width: 100%;
+
+                .pop-value {
+                    background-color: #f1f1f1;
+                    border: 1px solid #fff;
+                    border-radius: 13.333vw;
+                    font-size: 3.467vw;
+                    margin-bottom: 2.667vw;
+                    margin-right: 2.667vw;
+                    padding: 2.133vw 4vw;
+                }
+
+                .active {
+                    background-color: #fdebe9 !important;
+                    border: 1px solid #e93323;
+                    color: #e93323 !important;
+                }
+            }
+        }
+
+    }
+
+}

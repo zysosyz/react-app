@@ -1,0 +1,13 @@
+.z-gird {
+  width: 95%;
+  margin: 0 auto;
+  overflow: hidden;
+  background-color: #fff;
+}
+.z-gird img {
+  width: 40px;
+  height: 40px;
+}
+.rv-grid{
+  margin-top: 5px;
+}

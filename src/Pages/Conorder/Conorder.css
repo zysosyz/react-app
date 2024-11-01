@@ -1,0 +1,173 @@
+.buyPage {
+  background-color: #f1f1f1;
+  min-height: 100vh;
+  padding-bottom: 13.333vw;
+  padding-top: 12vw;
+  width: 100%;
+}
+.buyPage .header {
+  background: linear-gradient(180deg, #e93323, #fd9494);
+  padding-top: 1.333vw;
+  width: 100%;
+}
+.buyPage .header .address {
+  background-color: #fff;
+  border-top-left-radius: 1.333vw;
+  border-top-right-radius: 1.333vw;
+  margin: 0 auto;
+  padding: 2.667vw;
+  position: relative;
+  width: 90%;
+}
+.buyPage .header .address .name {
+  font-size: 15px;
+  color: #282828;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.buyPage .header .address .addressInfo {
+  color: #868686b4;
+  font-size: 13px;
+  color: #666;
+}
+.buyPage .header .address .addressInfo .default {
+  color: #e93323 !important;
+}
+.buyPage .header .address .addressName {
+  font-size: 4vw;
+  font-weight: 700;
+  margin: 1.6vw 0;
+}
+.buyPage .header .address .right {
+  position: absolute;
+  right: 2.667vw;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.buyPage .header .address::before {
+  background-image: url(https://java.crmeb.net/static/images/line.jpg);
+  background-size: 100% 100%;
+  bottom: 0;
+  content: "";
+  height: 1px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+.buyPage .header .setAddress {
+  width: 345px;
+  max-height: 90px;
+  margin: 0 auto;
+  padding: 14px;
+  background-color: #fff;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  position: relative;
+}
+.buyPage .header .setAddress::before {
+  background-image: url(https://java.crmeb.net/static/images/line.jpg);
+  background-size: 100% 100%;
+  bottom: 0;
+  content: "";
+  height: 1px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+.buyPage .content {
+  background-color: #fff;
+  border-radius: 7px;
+  margin: 2.667vw auto;
+  padding-bottom: 2.667vw;
+  overflow: hidden;
+  width: 90%;
+}
+.buyPage .content .goodsNum {
+  border-bottom: 1px solid #f1f1f1;
+  color: #666;
+  font-size: 3.733vw;
+  padding: 2.667vw;
+}
+.buyPage .content .paytype {
+  background-color: #fff;
+  border: 1px solid #f1f1f1;
+  border-radius: 1.333vw;
+  display: flex;
+  margin: 2.667vw auto;
+  overflow: hidden;
+  width: 95%;
+}
+.buyPage .content .paytype div {
+  flex: 1 1;
+  font-size: 3.467vw;
+  height: 10.667vw;
+  line-height: 10.667vw;
+  text-align: center;
+}
+.buyPage .content .active {
+  border-color: red;
+}
+.buy-add .title {
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  height: 61px;
+  line-height: 61px;
+}
+.buy-add .list {
+  margin-left: 15px;
+  padding-right: 15px;
+  border-bottom: 1px solid #eee;
+  height: 64px;
+  font-size: 12px;
+  color: #333;
+  display: flex;
+  align-items: center;
+}
+.buy-add .list .address {
+  width: 280px;
+  margin-left: 15px;
+}
+.buy-add .list .address .name {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 2px;
+  height: 18px;
+  line-height: 18px;
+}
+.buy-add .list .address .name .phone {
+  margin-left: 9px;
+}
+.buy-add .list .address .line {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.buy-add .active2 {
+  color: red;
+}
+.buy-add .address-other {
+  font-size: 15px;
+  font-weight: 700;
+  color: #fff;
+  width: 345px;
+  height: 43px;
+  border-radius: 21px;
+  text-align: center;
+  line-height: 43px;
+  margin: 42px auto;
+  background-color: #e93323 !important;
+}
+.rv-nav-bar {
+  background-color: #e93323;
+}
+.rv-nav-bar .rv-icon {
+  color: #fff !important;
+}
+.rv-nav-bar__title {
+  color: #fff !important;
+}

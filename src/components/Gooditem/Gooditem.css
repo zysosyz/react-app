@@ -1,0 +1,30 @@
+.gooditem {
+  background: #f1f1f1;
+  display: flex;
+  justify-content: space-between;
+  padding: 2.667vw;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+.gooditem .gooditem_con {
+  color: #333;
+  font-size: 4vw;
+}
+.gooditem .gooditem_con .name {
+  margin-bottom: 4px;
+}
+.gooditem .gooditem_con .good-info {
+  text-align: center;
+  border-radius: 5.333vw;
+  font-size: 12px;
+}
+.gooditem .gooditem_con .active1 {
+  background: #e93323;
+  color: #fff;
+}
+.gooditem .gooditem_con .active2 {
+  color: #e93323;
+}

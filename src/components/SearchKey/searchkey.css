@@ -1,0 +1,97 @@
+.rv-cell__left-icon {
+  font-size: 18px;
+}
+.Search {
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Search .search-input {
+  width: 85%;
+  padding: 5px;
+  border-radius: 25px;
+  height: 33px;
+  background-color: #f7f7f7;
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.Search .search-input input {
+  background-color: #f7f7f7;
+  border: none;
+  outline: none;
+  margin-left: 10px;
+  font-size: 14px;
+}
+.hot {
+  width: 100%;
+  padding: 15px;
+  border-bottom: 0.5px solid #bcbaba;
+}
+.hot .hot-search {
+  color: #999;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.hot .hotlist {
+  display: flex;
+  justify-content: space-between;
+}
+.hot .hotlist span {
+  color: #454545;
+  font-size: 13px;
+  padding: 5px 8px;
+  border: 1px solid #999;
+  border-radius: 15px;
+}
+.hot-com {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+.done {
+  width: 100%;
+}
+.done .searchdone {
+  width: 100%;
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.done .searchdone .searchdone-pic {
+  width: 90px;
+  height: 90px;
+}
+.done .searchdone .searchdone-pic img {
+  width: 100%;
+}
+.done .searchdone .search-content {
+  position: relative;
+  margin-left: 10px;
+  flex: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.done .searchdone .search-content .desc {
+  color: #222;
+  font-size: 15px;
+}
+.done .searchdone .search-content .price {
+  font-weight: bolder;
+  color: #ff448f;
+}
+.done .searchdone .search-content .price span {
+  font-size: 20px;
+}
+.done .searchdone .search-content .sales {
+  color: #aaa;
+  font-size: 12px;
+}
+.done .searchdone .search-content .search-icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 5px;
+}

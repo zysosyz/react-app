@@ -1,0 +1,56 @@
+.collect {
+  height: 100%;
+  background-color: #f5f5f5;
+}
+.collect .collecter {
+  height: auto;
+  background-color: #f5f5f5;
+  padding-bottom: 50px;
+}
+.collect .collecter .collectItem {
+  width: 100%;
+  padding: 15px;
+}
+.collect .collecter .collectItem .collect-item {
+  border-radius: 8px;
+  overflow: hidden;
+}
+.collect .collecter .collectItem .collect-item .collect-goods {
+  position: relative;
+}
+.collect .collecter .collectItem .collect-item .collect-goods .checkbox {
+  display: none;
+  left: 2.133vw;
+  position: absolute;
+  top: 40%;
+  transform: translateY(-50%);
+}
+.collect .collecter .checkboxAll-s {
+  display: none;
+}
+.collect .collecter .checkboxAll-s .checkboxAll {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+}
+.collect .collecter .checkboxAll-s .checkboxAll .collect-cancel {
+  font-size: 13px;
+  color: #999999;
+  border: 1px solid #999;
+  border-radius: 15px;
+  padding: 5px 10px;
+}
+.collect .rv-product-card {
+  margin: 0;
+  background-color: #fff;
+  padding-left: 40px;
+}
+.collect .rv-product-card__title {
+  font-size: 16px;
+  color: #ff449d;
+}
