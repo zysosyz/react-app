@@ -16,7 +16,6 @@ let Goods = lazy(() => import("../view/Goods/Goods"));
 let SearchKey = lazy(() => import("../components/SearchKey/SearchKey"));
 let Collect = lazy(() => import("../components/Collect/Collect"));
 let Myloading = lazy(() => import("../components/Myloading/Myloading"));
-// console.log(Home);
 
 const list = [
   {
