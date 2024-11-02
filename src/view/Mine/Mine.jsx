@@ -60,7 +60,7 @@ function Mine() {
       setMsg(data.data);
     });
     http("/order/data").then((res) => {
-      console.log(res.data.data);
+      //   console.log(res.data.data);
       setPayMsg(res.data.data);
     });
 
@@ -116,6 +116,7 @@ function Mine() {
                 icon={
                   <>
                     <Image
+                      fit="cover"
                       lazyload={true}
                       loadingIcon={<Loading type="spinner" />}
                       width={60}
