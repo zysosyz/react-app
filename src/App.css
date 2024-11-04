@@ -3,5 +3,5 @@
 }
 .rv-loading__spinner {
   margin: 0 auto;
-  
+  cursor: pointer;
 }
