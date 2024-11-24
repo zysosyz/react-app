@@ -12,12 +12,15 @@
   "dependencies": {
     "@fortawesome/free-solid-svg-icons": "^6.6.0",
     "@fortawesome/react-fontawesome": "^0.2.2",
+    "@vant/area-data": "^2.0.0",
     "axios": "^1.7.7",
+    "postcss-px-to-viewport": "^1.1.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-lazyimg-component": "^1.0.1",
     "react-router-dom": "^6.26.2",
-    "react-vant": "^3.3.5"
+    "react-vant": "^3.3.5",
+    "vue-i18n": "^10.0.4"
   },
   "devDependencies": {
     "@eslint/js": "^9.11.1",

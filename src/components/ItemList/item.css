@@ -1,0 +1,45 @@
+.left .list-img,
+.right .list-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.left .list-img img,
+.right .list-img img {
+  width: 100%;
+}
+.left img,
+.right img {
+  border-top-left-radius: 1.333vw;
+  border-top-right-radius: 1.333vw;
+  display: block;
+  width: 100%;
+}
+.left .infor,
+.right .infor {
+  background: #fff;
+  padding: 2.667vw;
+}
+.left .name,
+.right .name {
+  font-size: 3.733vw;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
+}
+.left .oldprice,
+.right .oldprice {
+  color: #d8d8d8;
+  font-size: 3.733vw;
+  margin-top: 1.333vw;
+  text-decoration: line-through;
+}
+.left .price,
+.right .price {
+  color: red;
+  font-size: 4.533vw;
+  font-weight: 700;
+  margin-top: 1.333vw;
+}

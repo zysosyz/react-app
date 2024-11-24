@@ -115,18 +115,20 @@ function Mine() {
                 }
                 icon={
                   <>
-                    <Image
-                      fit="cover"
-                      lazyload={true}
-                      loadingIcon={<Loading type="spinner" />}
-                      width={60}
-                      height={60}
-                      src={msg.avatar}
-                      round
-                      onClick={() => {
-                        ref.current.click();
-                      }}
-                    />
+                    <div className="head-img">
+                      <Image
+                        fit="cover"
+                        lazyload={true}
+                        loadingIcon={<Loading type="spinner" />}
+                        // width={60}
+                        // height={60}
+                        src={msg.avatar}
+                        round
+                        onClick={() => {
+                          ref.current.click();
+                        }}
+                      />
+                    </div>
                     <input
                       ref={ref}
                       type="file"
@@ -169,8 +171,9 @@ function Mine() {
           <div className="order-wrapper">
             <div className="center">
               <span
+                className="center-title"
                 style={{
-                  fontSize: "15px",
+                  // fontSize: "15px",
                   color: "#282828",
                   fontWeight: "bolder",
                 }}
@@ -178,7 +181,8 @@ function Mine() {
                 订单中心
               </span>
               <span
-                style={{ fontSize: "13px", color: "#666" }}
+                className="center-more"
+                style={{ color: "#666" }}
                 onClick={() => {
                   navigate("/user/orderlist");
                 }}

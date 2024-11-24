@@ -1,69 +1,42 @@
 .somelist {
+  min-height: 100vh;
+
+  .rv-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
     min-height: 100vh;
+    width: 95%;
 
-    .rv-list {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        margin: 0 auto;
-        min-height: 100vh;
-        width: 95%;
-
-        .some_item {
-            border-radius: 1.333vw;
-            margin-bottom: 2.667vw;
-            margin-top: 1.333vw;
-            width: 48%;
-
-            .list-img {
-                flex: auto;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                width: 100%;
-            }
-
-
-            img {
-                border-top-left-radius: 1.333vw;
-                border-top-right-radius: 1.333vw;
-                display: block;
-                width: 100%;
-            }
-
-            .infor {
-                background: #fff;
-                padding: 2.667vw;
-            }
-
-            .name {
-                font-size: 3.733vw;
-                overflow: hidden;
-                text-overflow: ellipsis;
-                white-space: nowrap;
-                width: 100%;
-            }
-
-            .oldprice {
-                color: #d8d8d8;
-                font-size: 3.733vw;
-                margin-top: 1.333vw;
-                text-decoration: line-through;
-            }
-
-            .price {
-                color: red;
-                font-size: 4.533vw;
-                font-weight: 700;
-                margin-top: 1.333vw;
-            }
-        }
+    .some_item {
+      border-radius: 1.333vw;
+      margin-bottom: 2.667vw;
+      margin-top: 1.333vw;
+      width: 48%;
+      .box {
+       
+      }
     }
+  }
 }
 
-
 .rv-list__loadmore {
-    width: 95%;
-    margin: 0 auto;
-    text-align: center;
+  width: 95%;
+  margin: 0 auto;
+  text-align: center;
+}
+.box {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.left,
+.right {
+  width: 49%;
+  display: flex;
+  flex-direction: column;
+  .item{
+    padding-bottom: 5px;
+  }
 }

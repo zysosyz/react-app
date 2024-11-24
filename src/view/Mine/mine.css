@@ -139,3 +139,13 @@
   line-height: 50px;
   font-size: 14px;
 }
+.head-img {
+  width: 60px;
+  height: 60px;
+}
+.center-title {
+  font-size: 15px;
+}
+.center-more {
+  font-size: 13px;
+}
