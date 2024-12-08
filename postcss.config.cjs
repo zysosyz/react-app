@@ -1,6 +1,6 @@
 module.exports = {
   plugins: {
-    "postcss-px-to-viewport-8-plugin": {
+    "postcss-px-to-viewport": {
       viewportWidth: 375, // 设计稿宽度
       unitPrecision: 5, // 小数位
       viewportUnit: "vw", // 转换单位
